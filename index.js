@@ -1,4 +1,4 @@
-;(function openInInvidious() {
+function openInInvidious() {
   const currentURL = window.location
   const currentSearch = currentURL.search
   const searchParams = new URLSearchParams(currentSearch)
@@ -10,4 +10,6 @@
   }
 
   console.log({ videoID })
-})()
+}
+
+openInInvidious()
