@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/graysonlee123/yt2invidious#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0",
     "prepend-file": "^2.0.1",
     "uglify-js": "^3.18.0"

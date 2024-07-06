@@ -9,7 +9,9 @@ function openInInvidious() {
     return
   }
 
-  console.log({ videoID })
+  const destinationURL = 'YT2INVIDIOUS_DESTINATIONwatch?v=' + videoID
+
+  window.location.href = destinationURL
 }
 
 openInInvidious()
