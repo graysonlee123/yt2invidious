@@ -4,7 +4,8 @@
   "description": "Bookmarklet used to open YouTube videos on an Invidious instance. ",
   "main": "index.js",
   "scripts": {
-    "start": "node build.js"
+    "start": "node build.js",
+    "watch": "nodemon index.js --exec 'npm start'"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "fs-extra": "^11.2.0",
     "prepend-file": "^2.0.1",
     "uglify-js": "^3.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
