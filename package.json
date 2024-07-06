@@ -4,7 +4,7 @@
   "description": "Bookmarklet used to open YouTube videos on an Invidious instance. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/graysonlee123/yt2invidious/issues"
   },
-  "homepage": "https://github.com/graysonlee123/yt2invidious#readme"
+  "homepage": "https://github.com/graysonlee123/yt2invidious#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "prepend-file": "^2.0.1",
+    "uglify-js": "^3.18.0"
+  }
 }
