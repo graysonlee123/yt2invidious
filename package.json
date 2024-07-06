@@ -1,0 +1,19 @@
+{
+  "name": "yt2invidious",
+  "version": "1.0.0",
+  "description": "Bookmarklet used to open YouTube videos on an Invidious instance. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graysonlee123/yt2invidious.git"
+  },
+  "author": "Grayson Gantek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graysonlee123/yt2invidious/issues"
+  },
+  "homepage": "https://github.com/graysonlee123/yt2invidious#readme"
+}
